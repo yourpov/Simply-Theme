@@ -1,0 +1,22 @@
+/**
+ * @name Concept
+ * @author MonsterDev
+ * @version 1.5
+ * @description Phoenix Theme Bundle: Transparent, fully customizable theme with multiple addons
+ * @invite TeRQEPb
+ * @authorId 402272736665272320
+ * @source https://github.com/monstrousdev/themes/theme-files/Reborn.theme.css
+*/
+
+@import url('https://monstrousdev.github.io/themes/phoenix-bundle/reborn.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/O3KkEmM.jpeg');
+  --background-blur: 0px;
+  --background-darkness: 0.73;
+  --main-color: #691136;
+  --hover-color: #500022;
+  --home-color: #eeeeee;
+  --roundness: 50px;
+  --shadow: rgba(105,17,54,0.11);
+}
