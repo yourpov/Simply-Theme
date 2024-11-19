@@ -1,5 +1,5 @@
 /**
- * @name Parking lot
+ * @name Parking-Lot
  * @author a
  * @version 1.0
  * @description Adds a simplistic background without altering the look of discord
@@ -12,7 +12,7 @@
 @import url('https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css');
 
 :root {
-  --background: url('https://i.imgur.com/1zxBtXh.jpeg');
+  --background: url('https://wallpapercave.com/wp/wp14705238.jpg');
   --backgroundsize: cover;
   --backgroundblur: 100px;
   --popout: url('https://i.imgur.com/1zxBtXh.jpeg');
