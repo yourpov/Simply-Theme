@@ -14,10 +14,10 @@
 :root {
   --background: url('https://i.imgur.com/1zxBtXh.jpeg');
   --backgroundsize: cover;
-  --backgroundblur: 50px;
+  --backgroundblur: 100px;
   --popout: url('https://i.imgur.com/1zxBtXh.jpeg');
   --popoutsize: cover;
-  --popoutblur: 50px;
+  --popoutblur: 100px;
   --transparencycolor: 0,0,0;
   --accentcolor: 190,78,180;
   --backdrop: rgba(0,0,0,0.85);
@@ -27,6 +27,6 @@
   --guildchanneltransparency: 0;
   --memberlisttransparency: 0;
   --backdropsize: var(--background-size);
-  --backdropblur: 50px;
+  --backdropblur: 100px;
   --version1_0_5: none;
 }
