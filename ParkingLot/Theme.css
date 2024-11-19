@@ -9,7 +9,7 @@
  * @updateUrl https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Theme.css
 */
 
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css');
 
 :root {
   --background: url('https://i.imgur.com/1zxBtXh.jpeg');
