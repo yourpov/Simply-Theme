@@ -9,15 +9,15 @@
  * @updateUrl https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Theme.css
 */
 
-@import url('https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
 
 :root {
-  --background: url('https://wallpapercave.com/wp/wp14705238.jpg');
+  --background: url('https://i.imgur.com/1zxBtXh.jpeg');
   --backgroundsize: cover;
-  --backgroundblur: 100px;
+  --backgroundblur: 50px;
   --popout: url('https://i.imgur.com/1zxBtXh.jpeg');
   --popoutsize: cover;
-  --popoutblur: 100px;
+  --popoutblur: 50px;
   --transparencycolor: 0,0,0;
   --accentcolor: 190,78,180;
   --backdrop: rgba(0,0,0,0.85);
@@ -27,6 +27,6 @@
   --guildchanneltransparency: 0;
   --memberlisttransparency: 0;
   --backdropsize: var(--background-size);
-  --backdropblur: 100px;
+  --backdropblur: 50px;
   --version1_0_5: none;
 }
