@@ -1,2 +1,2 @@
 # DiscordThemes
-Collection of my Discord Themes
+Simply-Theme your discord with ease
