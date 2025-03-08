@@ -19,7 +19,7 @@
   --popoutsize: cover;
   --popoutblur: 100px;
   --transparencycolor: 0,0,0;
-  --accentcolor: 190,78,180;
+  --accentcolor: 190,78,180;           /* Accent Color (RGB Value) */
   --backdrop: rgba(0,0,0,0.85);
   --textshadow: transparent;
   --transparencyalpha: 0.62;
