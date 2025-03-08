@@ -23,8 +23,8 @@
   --backdrop: rgba(0,0,0,0.85);
   --textshadow: transparent;
   --transparencyalpha: 0.62;
-  --messagetransparency: 0;
-  --guildchanneltransparency: 0;
+  --messagetransparency: 0;           /* Message Transparency */
+  --guildchanneltransparency: 0.0.1;  /* Voice Channel Transparency */
   --memberlisttransparency: 0;
   --backdropsize: var(--background-size);
   --backdropblur: 100px;
