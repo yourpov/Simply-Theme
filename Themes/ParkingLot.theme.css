@@ -5,7 +5,7 @@
  * @description Adds a simplistic background without altering the look of discord
  * @source https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css
  * @website https://github.com/ItsEcstasy/
- * @authorId 278543574059057150
+ * @authorId 1055337846657007648
  * @updateUrl https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/Simply-Theme/Theme.css
 */
 
@@ -19,12 +19,12 @@
   --popoutsize: cover;
   --popoutblur: 100px;
   --transparencycolor: 0,0,0;
-  --accentcolor: 190,78,180;           /* Accent Color (RGB Value) */
+  --accentcolor: 105, 127, 122, 0.281; /* Accent Color (RGB Value) */
   --backdrop: rgba(0,0,0,0.85);
   --textshadow: transparent;
   --transparencyalpha: 0.62;
-  --messagetransparency: 0;           /* Message Transparency */
-  --guildchanneltransparency: 0.0.1;  /* Voice Channel Transparency */
+  --messagetransparency: 0.1; /* Message Transparency */
+  --guildchanneltransparency: 0.3; /* Voice Channel Transparency */
   --memberlisttransparency: 0;
   --backdropsize: var(--background-size);
   --backdropblur: 100px;

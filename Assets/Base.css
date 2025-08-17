@@ -1,41 +1,13 @@
 /**
  * @name Base
- * @description Adds a simplistic background without altering the look of discord
+ * @description Adds a simplistic background to Discord
  * @author a
  * @version 1.0.0
  * @authorId 1055337846657007648
  * @source 
  * @updateUrl 
- * 
- * @var text
- * @var range
- * @var range
- * @var range
- * @var range
- * @var range
- * @var text
- * @var checkbox
- * @var text
- * @var text
- * @var text
- * @var select
- * @var select
- * @var range
- * @var text
- * @var select
- * @var select
- * @var range
- * @var text
- * @var select
- * @var select
- * @var range
- * @var text
- * @var text
- * @var text
- * @var text
- * @var text
- * @var text
  */
+
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
 
@@ -48,7 +20,7 @@
 	--memberlisttransparency:   0.0;
 
 	--accentcolor:              190, 78, 180;                      /* Used in rgba(var(--accentcolor), ...) */
-	--accentcolor-preview:      rgba(190, 78, 180, 1);             /* For editor colorbox preview */
+	--accentcolor-preview:      rgb(255, 255, 255);             /* For editor colorbox preview */
 
 	--settingsicons:            1;                                 /* 1 = true  2 = false */
 	--font:                     "gg sans", "Noto Sans";
