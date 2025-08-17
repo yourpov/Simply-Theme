@@ -3,7 +3,7 @@ Simply-Theme your discord with ease
 
 ```css
 /**
- * @name The Last Fuck
+ * @name Example-Theme
  * @website https://github.com/yourpov/Simply-Theme
 */
 
@@ -11,15 +11,16 @@ Simply-Theme your discord with ease
 
 /* Customizable Settings */
 :root {
-  --background: url('https://i.imgur.com/fpcy2Aj.jpeg');   /* Main background */
+  --background: url('https://i.imgur.com/zN6oYGF.png');   /* Main background */
   --backgroundsize: auto;                                /* Background scaling */
   --backgroundblur: 15px;                                 /* Blur on background */
 
-  --popout: url('https://i.imgur.com/fpcy2Aj.jpeg');       /* Popout background */
+  --popout: url('https://i.imgur.com/zN6oYGF.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
   --popoutblur: 15px;                                     /* Popout blur */
 
-  --transparencyalpha: 0.50;                              /* Global transparency */
+  --transparencyalpha: 0.65;                              /* Global transparency */
+  --transparencycolor: 3,3,3;                             /* Transparency color */
   --accentcolor: 100, 100, 100, 0.4;                      /* Accent color (RGBA) */
   --messagetransparency: 0.1;                             /* Message box transparency */
   --guildchanneltransparency: 0.1;                        /* Channel list transparency */
