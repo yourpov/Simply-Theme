@@ -1,0 +1,24 @@
+/**
+ * @name ZeroTwo
+ * @author @uhhhwhatever
+ * @version 1.0
+ * @description Adds a simplistic background for Discord
+ * @source https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css
+ * @website https://github.com/yourpov/Simply-Theme
+ * @authorId 1055337846657007648
+ * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/ParkingLot.theme.css
+*/
+
+@import url('https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css');
+
+:root {
+  --background: url('https://i.imgur.com/YfTbo8P.png');
+  --backgroundblur: 15px;
+  --popout: url('https://i.imgur.com/YfTbo8P.png');
+  --popoutsize: cover;
+  --transparencyalpha: 0.70;
+  --messagetransparency: 0;
+  --guildchanneltransparency: 0.1;
+  --backdropblur: 80px;
+  --version1_0_5: none;
+}
