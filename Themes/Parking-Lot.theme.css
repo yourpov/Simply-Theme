@@ -1,32 +1,31 @@
 /**
  * @name Parking-Lot
  * @author @uhhhwhatever
- * @version 1.0
  * @description Adds a simplistic background for Discord
- * @source https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css
  * @website https://github.com/yourpov/Simply-Theme
- * @authorId 1055337846657007648
  * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/Parking-Lot.theme.css
 */
 
 @import url('https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css');
 
+/* Customizable Settings */
 :root {
-  --background: url('https://i.imgur.com/1zxBtXh.jpeg');
-  --backgroundsize: cover;
-  --backgroundblur: 100px;
-  --popout: url('https://i.imgur.com/1zxBtXh.jpeg');
-  --popoutsize: cover;
-  --popoutblur: 100px;
+  --background: url('https://i.imgur.com/1zxBtXh.jpeg');   /* Main background */
+  --backgroundsize: cover;                                /* Background scaling */
+  --backgroundblur: 15px;                                 /* Blur on background */
+
+  --popout: url('https://i.imgur.com/1zxBtXh.jpeg');       /* Popout background */
+  --popoutsize: cover;                                    /* Popout scaling */
+  --popoutblur: 15px;                                     /* Popout blur */
   --transparencycolor: 0,0,0;
-  --accentcolor: 105, 127, 122, 0.281; /* Name Plate Accent Color (RGB Value, Transparency) */
-  --backdrop: rgba(0,0,0,0.85);
-  --textshadow: transparent;
-  --transparencyalpha: 0.62;
-  --messagetransparency: 0.1; /* Message Transparency */
-  --guildchanneltransparency: 0.3; /* Voice Channel Transparency */
-  --memberlisttransparency: 0;
-  --backdropsize: var(--background-size);
-  --backdropblur: 100px;
-  --version1_0_5: none;
+  --transparencyalpha: 0.62;                              /* Global transparency */
+  --accentcolor: 105, 127, 122, 0.281;                    /* Nameplate Accent color (RGBA) */
+  --messagetransparency: 0;                               /* Message box transparency */
+  --guildchanneltransparency: 0.1;                        /* Channel list transparency */
+  --memberlisttransparency: 0;                            /* Member list transparency */
+
+  --backdropsize: var(--backgroundsize);                  /* Backdrop size */
+  --backdropblur: 80px;                                   /* Backdrop blur */
+
+  --version1_0_5: none;                                   /* Internal flag */
 }

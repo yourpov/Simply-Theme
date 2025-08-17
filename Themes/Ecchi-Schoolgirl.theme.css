@@ -1,26 +1,26 @@
 /**
- * @name One Piece
+ * @name Ecchi Schoolgirl
  * @author @uhhhwhatever
  * @description Adds a simplistic background for Discord
  * @website https://github.com/yourpov/Simply-Theme
- * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/OnePiece.theme.css
+ * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/Ecchi-Schoolgirl.theme.css
 */
 
 @import url('https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css');
 
 /* Customizable Settings */
 :root {
-  --background: url('https://i.imgur.com/b8qs5Kr.png');   /* Main background */
+  --background: url('https://i.imgur.com/luir87t.png');   /* Main background */
   --backgroundsize: cover;                                /* Background scaling */
   --backgroundblur: 15px;                                 /* Blur on background */
 
-  --popout: url('https://i.imgur.com/b8qs5Kr.png');       /* Popout background */
+  --popout: url('https://i.imgur.com/luir87t.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
   --popoutblur: 15px;                                     /* Popout blur */
 
-  --transparencyalpha: 0.70;                              /* Global transparency */
-  --accentcolor: 145, 92, 39, 0.714;                    /* Nameplate Accent color (RGBA) */
-  --messagetransparency: 0;                               /* Message box transparency */
+  --transparencyalpha: 0.75;                              /* Global transparency */
+  --accentcolor: 170, 170, 170, 0.214;                    /* Nameplate Accent color (RGBA) */
+  --messagetransparency: 0.1;                               /* Message box transparency */
   --guildchanneltransparency: 0.1;                        /* Channel list transparency */
   --memberlisttransparency: 0;                            /* Member list transparency */
 
