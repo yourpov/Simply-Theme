@@ -9,7 +9,7 @@
  */
 
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url(https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/BasicBackground.css);
 
 :root {
 	--transparencycolor:        0, 0, 0;

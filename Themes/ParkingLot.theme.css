@@ -3,13 +3,13 @@
  * @author a
  * @version 1.0
  * @description Adds a simplistic background without altering the look of discord
- * @source https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css
+ * @sourcehttps://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css
  * @website https://github.com/ItsEcstasy/
  * @authorId 1055337846657007648
- * @updateUrl https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/Simply-Theme/Theme.css
+ * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/ParkingLot.theme.css
 */
 
-@import url('https://raw.githubusercontent.com/ItsEcstasy/DiscordThemes/refs/heads/main/ParkingLot/Base.css');
+@import url('https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css');
 
 :root {
   --background: url('https://i.imgur.com/1zxBtXh.jpeg');
@@ -19,7 +19,7 @@
   --popoutsize: cover;
   --popoutblur: 100px;
   --transparencycolor: 0,0,0;
-  --accentcolor: 105, 127, 122, 0.281; /* Accent Color (RGB Value) */
+  --accentcolor: 105, 127, 122, 0.281; /* Name Plate Accent Color (RGB Value, Transparency) */
   --backdrop: rgba(0,0,0,0.85);
   --textshadow: transparent;
   --transparencyalpha: 0.62;
