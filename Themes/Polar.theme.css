@@ -1,27 +1,23 @@
 /**
- * @name Polar
- * @author @uhhhwhatever
- * @description Centered polar bear with transparent UI and purple accent
- * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/Polar.theme.css
+ * @name Example-Theme
  * @website https://github.com/yourpov/Simply-Theme
-
 */
 
 @import url('https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css');
 
 /* Customizable Settings */
 :root {
-  --background: url('https://imgur.com/9ZByEtp.png');     /* Main background */
-  --backgroundsize: auto;                                 /* Background scaling */
-  --backgroundposition: center;                           /* Background position */
-  --backgroundrepeat: no-repeat;                          /* Don't repeat background */
+  --background: url('https://imgur.com/9ZByEtp.png');   /* Main background */
+  --backgroundsize: auto;                                  /* Background scaling */
+  --backgroundposition: center;                            /* Background position */
+  --backgroundrepeat: no-repeat;                           /* Don't repeat background */
   --backgroundblur: 5px;                                  /* Blur on background */
 
   --popout: url('https://i.imgur.com/zN6oYGF.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
-  --popoutblur: 5px;                                      /* Popout blur */
+  --popoutblur: 15px;                                      /* Popout blur */
 
-  --transparencyalpha: 0.5;                               /* Global transparency */
+  --transparencyalpha: 0.4;                               /* Global transparency */
   --transparencycolor: 8,9,10;                            /* Global transparency color */
   --accentcolor: 159, 133, 255;                           /* Accent color (RGB) */
 
