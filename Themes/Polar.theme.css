@@ -10,7 +10,6 @@
   --background: url('https://imgur.com/9ZByEtp.png');     /* Main background */
   --backgroundsize: auto;                                 /* Background scaling */
   --backgroundposition: center;                           /* Background position */
-  --backgroundrepeat: no-repeat;                          /* Don't repeat background */
   --backgroundblur: 5px;                                  /* Blur on background */
 
   --popout: url('https://i.imgur.com/zN6oYGF.png');       /* Popout background */
