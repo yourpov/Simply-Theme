@@ -13,17 +13,18 @@ Simply-Theme your discord with ease
 :root {
   --background: url('https://i.imgur.com/FPU09gi.png');   /* Main background */
   --backgroundsize: auto;                                 /* Background scaling */
-  --backgroundblur: 15px;                                 /* Blur on background */
+  --backgroundblur: 5px;                                  /* Blur on background */
 
   --popout: url('https://i.imgur.com/zN6oYGF.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
   --popoutblur: 15px;                                     /* Popout blur */
 
-  --transparencyalpha: 0.8;                               /* Global transparency */
-  --transparencycolor: 8,9,18;
+  --transparencyalpha: 0.2;                               /* Global transparency */
+  --transparencycolor: 8,8,10;                            /* Global transparency color */
   --accentcolor: 48, 48, 200, 0.9;                        /* Accent color (RGBA) */
-  --messagetransparency: 0.1;                             /* Message box transparency */
-  --guildchanneltransparency: 0.1;                        /* Channel list transparency */
+
+  --messagetransparency: 0.0;                             /* Message box transparency */
+  --guildchanneltransparency: 0.0;                        /* Channel list transparency */
   --memberlisttransparency: 0;                            /* Member list transparency */
 
   --backdropsize: var(--backgroundsize);                  /* Backdrop size */
