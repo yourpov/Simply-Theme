@@ -1,31 +1,33 @@
 /**
- * @name One Piece
+ * @name OnePiece
  * @author @uhhhwhatever
  * @description Adds a simplistic background for Discord
  * @website https://github.com/yourpov/Simply-Theme
- * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/OnePiece.theme.css
-*/
+ * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/Gamer-Kitten.theme.css
 
+*/
 @import url('https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css');
 
 /* Customizable Settings */
 :root {
   --background: url('https://i.imgur.com/b8qs5Kr.png');   /* Main background */
   --backgroundsize: cover;                                /* Background scaling */
-  --backgroundblur: 15px;                                 /* Blur on background */
+  --backgroundblur: 5px;                                  /* Blur on background */
 
   --popout: url('https://i.imgur.com/b8qs5Kr.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
   --popoutblur: 15px;                                     /* Popout blur */
 
-  --transparencyalpha: 0.70;                              /* Global transparency */
-  --accentcolor: 145, 92, 39, 0.714;                    /* Nameplate Accent color (RGBA) */
-  --messagetransparency: 0;                               /* Message box transparency */
-  --guildchanneltransparency: 0.1;                        /* Channel list transparency */
+  --transparencyalpha: 0.4;                               /* Global transparency */
+  --transparencycolor: 8,9,10;                            /* Global transparency color */
+  --accentcolor: 145, 92, 39, 0.714;                      /* Nameplate Accent color (RGBA) */
+
+  --messagetransparency: 0.0;                             /* Message box transparency */
+  --guildchanneltransparency: 0.0;                        /* Channel list transparency */
   --memberlisttransparency: 0;                            /* Member list transparency */
 
   --backdropsize: var(--backgroundsize);                  /* Backdrop size */
-  --backdropblur: 80px;                                   /* Backdrop blur */
+  --backdropblur: 40px;                                   /* Backdrop blur */
 
-  --version1_0_5: none;                                   /* Internal flag */
+  --version1_0_5: none;
 }
