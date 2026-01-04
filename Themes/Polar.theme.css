@@ -7,15 +7,15 @@
 
 /* Customizable Settings */
 :root {
-  --background: url('https://imgur.com/9ZByEtp.png');   /* Main background */
-  --backgroundsize: auto;                                  /* Background scaling */
-  --backgroundposition: center;                            /* Background position */
-  --backgroundrepeat: no-repeat;                           /* Don't repeat background */
+  --background: url('https://imgur.com/9ZByEtp.png');     /* Main background */
+  --backgroundsize: auto;                                 /* Background scaling */
+  --backgroundposition: center;                           /* Background position */
+  --backgroundrepeat: no-repeat;                          /* Don't repeat background */
   --backgroundblur: 5px;                                  /* Blur on background */
 
   --popout: url('https://i.imgur.com/zN6oYGF.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
-  --popoutblur: 15px;                                      /* Popout blur */
+  --popoutblur: 15px;                                     /* Popout blur */
 
   --transparencyalpha: 0.4;                               /* Global transparency */
   --transparencycolor: 8,9,10;                            /* Global transparency color */
