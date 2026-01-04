@@ -8,14 +8,16 @@
  * @invite mh5Tzm43m9
  */
 
+/* Turn on transparency in ur Discord settings to enable full effect */
+
 @import url("https://discord-mica.pages.dev/src/main.css");
 
  :root {
   /*Dark mode*/
-  --dark-bg: transparent; /*rgba(240,185,190,0.113); to achieve screenshot looking*/
+  --dark-bg: rgba(240,185,190,0.113);
   --dark-flyout: rgba(30,30,30);
-  --dark-accent: rgb(76, 194, 255);
-  --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
+  --dark-accent: rgb(76, 194,   --dark-accent-hovered: rgb(65, 163, 214);); /*also disabled button*/
+  --dark-accent-hovered: rgb(65, 163, 214);
   --dark-accent-font-color: black;
   --dark-button: rgb(45,45,45);
   --dark-button-border: rgb(60, 60, 60);
@@ -27,7 +29,7 @@
   --light-bg: transparent;
   --light-flyout: rgb(255, 255, 255);
   --light-accent: rgb(0, 120, 212);
-  --light-accent-hovered: rgb(0, 94, 167); /*also disabled button*/
+  --light-accent-hovered: rgb(0, 94, 167);                               /*also disabled button*/
   --light-accent-font-color: white;
   --light-button: rgb(251,251,251);
   --light-button-border: rgb(204, 204, 231);
@@ -36,6 +38,6 @@
   --light-status-panel: rgba(255,255,255,0.4);
 
   /* Titlebar */
-  --custom-app-top-bar-height: calc(24px + var(--space-sm)); /* Set to 0 if you don't want to use Discord title-bar */
-  --title-bar-icon: flex; /* Set to none to remove icons */
+  --custom-app-top-bar-height: calc(24px + var(--space-sm));              /* Set to 0 if you don't want to use Discord title-bar */
+  --title-bar-icon: flex;                                                 /* Set to none to remove icons */
   }
