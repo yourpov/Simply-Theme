@@ -10,22 +10,24 @@
 
 /* Customizable Settings */
 :root {
-  --background: url('https://i.imgur.com/1zxBtXh.jpeg');   /* Main background */
-  --backgroundsize: cover;                                /* Background scaling */
-  --backgroundblur: 15px;                                 /* Blur on background */
+  --background: url('https://i.imgur.com/1zxBtXh.jpeg');  /* Main background */
+  --backgroundsize: auto;                                 /* Background scaling */
+  --backgroundblur: 5px;                                  /* Blur on background */
 
-  --popout: url('https://i.imgur.com/1zxBtXh.jpeg');       /* Popout background */
+  --popout: url('https://i.imgur.com/zN6oYGF.png');       /* Popout background */
   --popoutsize: cover;                                    /* Popout scaling */
   --popoutblur: 15px;                                     /* Popout blur */
-  --transparencycolor: 0,0,0;
-  --transparencyalpha: 0.62;                              /* Global transparency */
+
+  --transparencyalpha: 0.2;                               /* Global transparency */
+  --transparencycolor: 8,8,10;                            /* Global transparency color */
   --accentcolor: 105, 127, 122, 0.281;                    /* Nameplate Accent color (RGBA) */
-  --messagetransparency: 0;                               /* Message box transparency */
-  --guildchanneltransparency: 0.1;                        /* Channel list transparency */
+
+  --messagetransparency: 0.0;                             /* Message box transparency */
+  --guildchanneltransparency: 0.0;                        /* Channel list transparency */
   --memberlisttransparency: 0;                            /* Member list transparency */
 
   --backdropsize: var(--backgroundsize);                  /* Backdrop size */
   --backdropblur: 80px;                                   /* Backdrop blur */
 
-  --version1_0_5: none;                                   /* Internal flag */
+  --version1_0_5: none;
 }
