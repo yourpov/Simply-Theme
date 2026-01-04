@@ -1,6 +1,10 @@
 /**
- * @name Example-Theme
+ * @name Polar
+ * @author @uhhhwhatever
+ * @description Centered polar bear with transparent UI and purple accent
+ * @updateUrl https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Themes/Polar.theme.css
  * @website https://github.com/yourpov/Simply-Theme
+
 */
 
 @import url('https://raw.githubusercontent.com/yourpov/Simply-Theme/refs/heads/main/Assets/Base.css');
@@ -18,7 +22,7 @@
 
   --transparencyalpha: 0.4;                               /* Global transparency */
   --transparencycolor: 8,9,10;                            /* Global transparency color */
-  --accentcolor: 159, 133, 255;                           /* Accent color (RGB) */
+  --accentcolor: 159, 133, 255, 0.714;                    /* Accent color (RGB) */
 
   --messagetransparency: 0.0;                             /* Message box transparency */
   --guildchanneltransparency: 0.0;                        /* Channel list transparency */
